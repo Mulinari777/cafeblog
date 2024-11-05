@@ -1,0 +1,8 @@
+brown
+white
+black
+wheat
+rgb(152, 123, 93)
+rgb(235, 235, 235)
+
+//Obs: coloque no visual studio code para que possa orientá-los melhor como cada cor é no preview

@@ -1,0 +1,101 @@
+*{
+    margin: 0 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    list-style: none;
+}
+#sit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 300px;
+    background-color: rgb(152, 123, 93);
+}
+.menu{
+    display: flex;
+    list-style: none;
+    flex-direction:row ;
+
+}
+
+.menu > li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+
+}
+.img{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    margin: 0px 320px;
+    height: 50px;
+    display: flex;
+}
+
+#navegacao{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 60px;
+    margin: 0px 300px;
+}
+
+#navegacao > div{
+    display: flex;
+}
+
+.menu-list{
+    list-style: none;
+    display: flex;
+}
+
+.menu-list > li {
+    padding: 0 10px;
+}
+
+#navegacao{
+    background-color: wheat;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-list > li > a{
+    text-decoration: none;
+    color: brown;
+}
+
+
+    
+
+
+#banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.minha-imagen{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+ 
+}
+
+body{
+    background-color: rgb(235 ,235 ,235  );
+
+}
+
+
+   
+
+

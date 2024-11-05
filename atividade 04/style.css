@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body{
+    width: 100vw;
+    position: relative;
+ }
+ .banner{
+    background-image: url(./BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT5650.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+ }
+ 
+ article{
+    padding: 70px;
+    width: 60%;
+    background-image: linear-gradient(to right, black 90%, transparent);
+    color: white;
+    height: 675px;
+ }
+ .ou{
+    display: flex;
+    gap: 10px;
+ }
+ header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: black;
+    color: white;
+
+ }
+ 
+
+ #cima >img{
+    width: 8rem;
+    margin: 0px 150px ;
+    
+ }
+ #nome > ul{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+ }

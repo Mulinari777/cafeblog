@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+body{
+    height:100vh ;
+}
+p{
+
+    background-color: brown;
+    color: white;
+    margin: 16px;
+    width: 150px;
+    height: 150px;
+   /* display: inline-block;*/
+    overflow: hidden;
+}
+
+div{
+ display: flex;
+ align-items: center;
+ justify-self: center;
+ /*height: 100%;*/
+
+ background-color: yellow;
+ padding: 50px;
+ margin: 0px 50px;
+
+ border: 10px dotted red;
+ border-radius: 20px;
+ box-shadow: 10px 10px 10px blue;
+}

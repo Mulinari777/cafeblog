@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+#navegacao{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 460px;
+    background-color: #e8e6e6;
+    
+}
+
+.menu-list{
+    display: flex;
+    list-style: none; 
+    flex-direction: row-reverse;
+}
+
+.menu-list > li {
+    padding: 0px 10px;
+}
+
+.menu-list >li > a{
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+}
+
+.peixe-grande{
+display: flex;
+
+}
+.caixa{
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    padding: 0px 200px 0px 50px;
+}
+p{
+    margin-bottom: 10px;
+}
+#peixe{
+display: flex;
+
+}
+
+#mapa{
+background-color: white;
+color: black;
+margin: 20px;
+font-size: 10px;
+padding: 10px;
+}
+
+.rodape{
+    background-color: black;
+    color: white;
+}
+
+.rodape > address{
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-bottom: 20px;
+}

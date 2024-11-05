@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Kablammo&display=swap");
+
+
+@font-face{
+    font-family: "Capture it";
+    src: url(./OldLondonAlternate.ttf) ;
+}
+
+
+h1{
+    font-family: "capture it";
+  color: aliceblue;
+}
+
+h2{
+   font-family: "capture it";
+   color: blue;
+   text-align: center; 
+}
+
+p {
+    font-family: sans-serif;
+    text-align: justify
+    line height 40px;
+   
+    
+ 
+  }
+
+    h4{
+        font-family:  fantasy;
+        text-shadow: 5px 5px 5px    rgb(255, 166, 0);
+        font-size: 36px;
+        color: green;
+
+    }
+
+    a{
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+        text-decoration-color: blue;
+        color: rgb(92, 21, 35);
+        font-size: 40px;
+    }
+    body{
+    background-color: aqua;
+       background-image: url(../aula04/i767052.webp);
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+       background-blend-mode: luminosity;
+    }

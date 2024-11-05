@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Times do Brasileirão Série A 2024</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Times do Brasileirão Série A 2024</h1>
+    </header>
+    <main>
+        <ul class="team-list">
+            <li><a href="times/flamengo.html">Flamengo</a></li>
+            <li><a href="times/palmeiras.html">Palmeiras</a></li>
+            <li><a href="times/sao_paulo.html">São Paulo</a></li>
+            <li><a href="times/corinthians.html">Corinthians</a></li>
+            <li><a href="times/vasco.html">Vasco</a></li>
+            <li><a href="times/santos.html">Santos</a></li>
+            <li><a href="times/atletico_mg.html">Atlético Mineiro</a></li>
+            <li><a href="times/bahia.html">Bahia</a></li>
+            <li><a href="times/fortaleza.html">Fortaleza</a></li>
+            <li><a href="times/internacional.html">Internacional</a></li>
+            <li><a href="times/gremio.html">Grêmio</a></li>
+            <li><a href="times/ceara.html">Ceará</a></li>
+            <li><a href="times/athletico.html">Athletico Paranaense</a></li>
+            <li><a href="times/cuiaba.html">Cuiabá</a></li>
+            <li><a href="times/botafogo.html">Botafogo</a></li>
+            <li><a href="times/america_mg.html">América Mineiro</a></li>
+        </ul>
+    </main>

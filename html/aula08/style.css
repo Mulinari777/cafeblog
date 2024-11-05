@@ -1,0 +1,39 @@
+:root{
+    --botao-par: blue;
+    --botao-impar: rgb(255, 0, 242);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    padding: 3rem;
+    margin: .5rem;
+    max-width: 10rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    
+}
+
+.cor-vermelha{
+    background-color: var(--botao-impar);
+}
+
+.cor-azul{
+    background-color: var(--botao-par);
+}

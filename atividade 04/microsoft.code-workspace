@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../microsoft"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mulinari"
+	}
+}

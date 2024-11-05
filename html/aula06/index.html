@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .div{
+            background-color: blueviolet;
+            height: 50px;
+            width: 50px;
+            /*margin: 0 15px;*/
+            /*display: inline-block;*/
+            
+        }
+
+        #segunda{
+            background-color: red;
+            
+        }
+
+       .iguais{
+            background-color: aqua;
+            border-radius: 50%;
+        }
+
+        .borda-divisao{
+            border: 5px solid orangered;
+        }
+
+        #pai{
+            
+            background-color: rgb(151, 151, 151);
+            height: 150px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+           /*gap: 15px;*/
+
+        }
+        .prateleiras{
+            display: flex;
+        }
+        
+        .ursinho{
+            order: 3;
+        }
+        .carro{
+            order: 4;
+        }
+        .bola{
+            order: 1;
+        }
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <div id="pai">
+        <div class="div iguais borda-divisao"></div>
+        <div class="div iguais" id="segunda"></div>
+        <div class="div iguais"></div>
+        <div class="div borda-divisao"></div>
+    </div>
+
+    <div class="prateleiras">
+        <div class="ursinho">Ursinho</div>
+        <div class="carro">Carro</div>
+        <div class="bola">Bola</div>
+        <div class="bola">Boneca</div>
+    </div>
+
+</body>
+</html>
